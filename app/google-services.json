@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "764388676291",
+    "firebase_url": "https://rozgar-1092b.firebaseio.com",
+    "project_id": "rozgar-1092b",
+    "storage_bucket": "rozgar-1092b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:764388676291:android:46ccaf7e3e0dd5ba930876",
+        "android_client_info": {
+          "package_name": "com.app.rozgar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "764388676291-e0ple4uv237i3dc1prrbtr16h7oufqh5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.rozgar",
+            "certificate_hash": "0f2e17b482428ae60ab0e2875a41ad82ff339ecd"
+          }
+        },
+        {
+          "client_id": "764388676291-f6a7mn4at4fqgfl63gb77l2hmcg3bvqq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDN7IgufXVYm2CGhqURVDubxKYBLHuNk2s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "764388676291-f6a7mn4at4fqgfl63gb77l2hmcg3bvqq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

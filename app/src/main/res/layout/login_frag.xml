@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="@dimen/_240sdp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/regular"
+        android:hint="@string/email_field"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:paddingTop="@dimen/_15sdp"
+        android:paddingBottom="@dimen/_11sdp"
+        android:singleLine="true"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:textSize="@dimen/_15sdp"
+        app:backgroundTint="#11A4FF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="@dimen/_240sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:fontFamily="@font/regular"
+        android:hint="@string/pass_field"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:paddingTop="@dimen/_15sdp"
+        android:paddingEnd="@dimen/_35sdp"
+        android:paddingRight="@dimen/_35sdp"
+        android:paddingBottom="@dimen/_11sdp"
+        android:singleLine="true"
+        android:textSize="@dimen/_15sdp"
+        app:backgroundTint="#11A4FF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/email" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/regular"
+        android:text="@string/remember_pass"
+        android:textSize="@dimen/_11sdp"
+        android:layout_marginTop="@dimen/_17sdp"
+        app:buttonTint="#11A4FF"
+        app:layout_constraintStart_toStartOf="@+id/pass"
+        app:layout_constraintTop_toBottomOf="@+id/pass" />
+
+    <Button
+        android:id="@+id/loginBt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_28sdp"
+        android:background="@drawable/roundbutton"
+        android:fontFamily="@font/notoreg"
+        android:paddingTop="@dimen/_13sdp"
+        android:paddingBottom="@dimen/_13sdp"
+        android:text="@string/sign_in_bt"
+        android:textAllCaps="false"
+        android:stateListAnimator="@null"
+
+        android:textColor="#fff"
+        android:textSize="@dimen/_14sdp"
+        app:layout_constraintEnd_toEndOf="@+id/pass"
+        app:layout_constraintStart_toStartOf="@+id/pass"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+
+    <ImageView
+        android:id="@+id/viewPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        app:layout_constraintBottom_toBottomOf="@+id/pass"
+        app:layout_constraintEnd_toEndOf="@+id/pass"
+        app:layout_constraintTop_toTopOf="@+id/pass"
+        android:src="@drawable/ic_visibility_black_24dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

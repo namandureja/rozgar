@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Rozgar</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="nav_home">My Products</string>
+    <string name="nav_order">Orders</string>
+    <string name="nav_home_hindi">मेरे उत्पाद</string>
+    <string name="nav_order_hindi">आदेश</string>
+    <string name="name_field">Name/Business Name</string>
+    <string name="email_field">Email address</string>
+    <string name="pass_field">Password</string>
+    <string name="remember_pass">Remember Password</string>
+    <string name="sign_upBt">Sign Up</string>
+    <string name="password_caution">Password must be at least 6 characters long</string>
+    <string name="sign_in_bt">Sign In</string>
+    <string name="translate_bt">Translate</string>
+    <string name="reg_page_eng">This is the registration page. If you do not have an account already, click on sign up tab, enter your name, email address and password. Click on the sign up button and a verification link will be sent to your email. Then, sign in using your credentials.</string>
+    <string name="reg_page_hindi">यह पंजीकरण पृष्ठ है। यदि आपके पास पहले से कोई खाता नहीं है, तो साइन अप टैब पर क्लिक करें, अपना नाम, ईमेल पता और पासवर्ड दर्ज करें। साइन अप बटन पर क्लिक करें और एक सत्यापन लिंक आपके ईमेल पर भेजा जाएगा। फिर, अपने क्रेडेंशियल्स का उपयोग करके साइन इन करें।</string>
+    <string name="home_page_eng">This is the home page. You can view your products here or add them by clicking on the plus icon. Enter the details of the product and an image. You can also edit a product by clicking on the product\'s image. Click on the orders tab to view your pending orders.</string>
+    <string name="home_page_hindi">यह होम पेज है। आप अपने उत्पादों को यहां देख सकते हैं या उन्हें प्लस आइकन पर क्लिक करके जोड़ सकते हैं। उत्पाद और एक छवि का विवरण दर्ज करें। आप उत्पाद की छवि पर क्लिक करके उत्पाद को संपादित भी कर सकते हैं। अपने लंबित आदेशों को देखने के लिए आदेश टैब पर क्लिक करें।</string>
+</resources>

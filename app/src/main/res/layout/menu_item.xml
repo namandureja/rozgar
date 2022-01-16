@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:id="@+id/item1"
+        android:onClick="onClick"
+        android:background="?attr/selectableItemBackground"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/item_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_17sdp"
+            android:layout_marginBottom="@dimen/_17sdp"
+            android:src="@drawable/ic_signout"
+            />
+
+        <TextView
+            android:id="@+id/signOutBt"
+            android:layout_gravity="center_vertical"
+            android:textColor="#11A4FF"
+            android:fontFamily="@font/regular"
+            android:layout_marginStart="@dimen/_13sdp"
+            android:layout_marginLeft="@dimen/_13sdp"
+            android:textSize="@dimen/_17sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Out" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:id="@+id/item2"
+        android:onClick="onClick"
+        >
+        <ImageView
+            android:id="@+id/item_icon2"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_17sdp"
+            android:layout_marginBottom="@dimen/_17sdp"
+            android:src="@drawable/ic_edit" />
+
+        <TextView
+            android:id="@+id/editProfile"
+            android:layout_gravity="center_vertical"
+            android:textColor="#11A4FF"
+            android:fontFamily="@font/regular"
+            android:layout_marginStart="@dimen/_13sdp"
+            android:layout_marginLeft="@dimen/_13sdp"
+            android:textSize="@dimen/_17sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit Profile" />
+    </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

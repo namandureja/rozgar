@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/pinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/bold"
+        android:text="Purchase Information"
+        android:textColor="@color/primary"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.283"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/bold"
+        android:text="Rs. 42"
+        android:textColor="#CB0E0E0E"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.135"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pinfo" />
+
+    <TextView
+        android:id="@+id/duedate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/notoreg"
+        android:text="Free shipping, get it by Thursday"
+        android:textColor="@color/dark_grey"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.248"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/price" />
+
+    <TextView
+        android:id="@+id/prodname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/bold"
+        android:text="Ethnic Sandals"
+        android:textColor="#CB0E0E0E"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.188"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/duedate" />
+
+    <TextView
+        android:id="@+id/qty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/notoreg"
+        android:text="1 Unit"
+        android:textColor="@color/dark_grey"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prodname" />
+
+
+    <EditText
+        android:id="@+id/add1"
+        android:layout_width="@dimen/_240sdp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/regular"
+        android:hint="Address Line 1 "
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:paddingTop="@dimen/_15sdp"
+        android:paddingBottom="@dimen/_11sdp"
+        android:singleLine="true"
+        android:textSize="@dimen/_15sdp"
+        app:backgroundTint="#11A4FF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.464"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <EditText
+        android:id="@+id/add2"
+        android:layout_width="@dimen/_240sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/regular"
+        android:hint="Address Line 2"
+        android:maxLines="1"
+        android:paddingTop="@dimen/_15sdp"
+        android:paddingBottom="@dimen/_11sdp"
+        android:singleLine="true"
+        android:textSize="@dimen/_15sdp"
+        app:backgroundTint="#11A4FF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add1" />
+
+    <EditText
+        android:id="@+id/zip"
+        android:layout_width="@dimen/_240sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/regular"
+        android:hint="Zip Code"
+        android:maxLines="1"
+        android:paddingTop="@dimen/_15sdp"
+        android:paddingEnd="@dimen/_35sdp"
+        android:paddingRight="@dimen/_35sdp"
+        android:paddingBottom="@dimen/_11sdp"
+        android:singleLine="true"
+        android:textSize="@dimen/_15sdp"
+        app:backgroundTint="#11A4FF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.464"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add2" />
+
+    <Button
+        android:id="@+id/nextBt"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/roundbutton"
+        android:fontFamily="@font/notoreg"
+        android:paddingTop="@dimen/_13sdp"
+        android:paddingBottom="@dimen/_13sdp"
+        android:stateListAnimator="@null"
+        android:text="Next"
+
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="@dimen/_14sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/zip" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bold"
+        android:text="Shipping Address"
+        android:textColor="@color/primary"
+        android:textSize="25sp"
+        android:layout_marginTop="@dimen/_5sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.232"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/qty" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
